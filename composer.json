@@ -1,5 +1,5 @@
 {
-    "name": "payum/payum-bundle",
+    "name": "subone/payum-bundle",
     "type": "symfony-bundle",
     "description": "Rich payment solutions for symfony2. Paypal, payex, authorize.net, be2bill, omnipay, recurring payments, instant notifications and many more",
     "keywords": [
@@ -39,10 +39,8 @@
     "require": {
         "php": "^5.5.0|^7.0",
         "payum/core": "~1.1",
-        "symfony/framework-bundle": "~2.7",
-        "symfony/twig-bundle": "~2.7",
-        "symfony/form": "~2.7",
-        "symfony/validator": "~2.7"
+        "symfony/framework-bundle": "~3.0",
+        "symfony/twig-bundle": "~3.0",
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",
